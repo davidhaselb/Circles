@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'GroupsImporter' target in the 'GroupsImporter' project
+//
+
+#ifdef __OBJC__
+#endif

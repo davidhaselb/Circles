@@ -1,0 +1,42 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "5"; */
+"5.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "100400"; */
+"100400.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "100469"; */
+"100469.title" = "Button";
+
+/* Class = "NSButtonCell"; title = "Select"; ObjectID = "40b-qP-j9S"; */
+"40b-qP-j9S.title" = "Select";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "822-qQ-xIL"; */
+"822-qQ-xIL.title" = "Button";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "GQz-B9-45F"; */
+"GQz-B9-45F.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "KhV-bF-wVs"; */
+"KhV-bF-wVs.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "UNy-Mh-E7g"; */
+"UNy-Mh-E7g.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "XsJ-MN-uYP"; */
+"XsJ-MN-uYP.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "a1s-K4-Ltc"; */
+"a1s-K4-Ltc.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "bPJ-vC-lB6"; */
+"bPJ-vC-lB6.title" = "Button";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "c5y-C1-u9X"; */
+"c5y-C1-u9X.title" = "Text Cell";
+
+/* Class = "NSView"; ibShadowedToolTip = "People Picker"; ObjectID = "fr7-K9-4Vm"; */
+"fr7-K9-4Vm.ibShadowedToolTip" = "People Picker";
+
+/* Class = "NSPanel"; title = "People Picker Panel"; ObjectID = "sEl-oe-tr4"; */
+"sEl-oe-tr4.title" = "People Picker Panel";
