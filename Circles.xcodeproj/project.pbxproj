@@ -882,10 +882,10 @@
 				INFOPLIST_FILE = "Groups/Circles-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhas.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Circles;
-				PROVISIONING_PROFILE = "aefd56e3-73f0-4a56-99f8-e5c0d9c71841";
+				PROVISIONING_PROFILE = "5d5465df-e178-46a4-8a16-292cf0fc5694";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Groups/Circles-Bridging-Header.h";
@@ -921,10 +921,10 @@
 				INFOPLIST_FILE = "Groups/Circles-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhas.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Circles;
-				PROVISIONING_PROFILE = "aefd56e3-73f0-4a56-99f8-e5c0d9c71841";
+				PROVISIONING_PROFILE = "5d5465df-e178-46a4-8a16-292cf0fc5694";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Groups/Circles-Bridging-Header.h";
