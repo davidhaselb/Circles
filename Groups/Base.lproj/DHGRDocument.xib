@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.AddressBook.ibplugin" version="9532"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <plugIn identifier="com.apple.AddressBook.ibplugin" version="10117"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="DHGRDocument">
@@ -384,7 +384,6 @@ IA
                                                                 </buttonCell>
                                                                 <connections>
                                                                     <action selector="toggleRatingsPopover:" target="100407" id="sJh-Fc-zMG"/>
-                                                                    <binding destination="EgJ-6o-lZs" name="hidden" keyPath="self.notPurchased" id="5pp-9e-OdZ"/>
                                                                 </connections>
                                                             </button>
                                                             <button toolTip="Add Points" verticalHuggingPriority="750" id="45t-Us-iQ6">
@@ -396,7 +395,6 @@ IA
                                                                 </buttonCell>
                                                                 <connections>
                                                                     <action selector="toggleAdditionsPopover:" target="100407" id="WHS-gY-YvL"/>
-                                                                    <binding destination="EgJ-6o-lZs" name="hidden" keyPath="self.notPurchased" id="325-Yi-8t6"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -416,10 +414,10 @@ IA
                                                                             <rect key="frame" x="0.0" y="0.0" width="265" height="124"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                             <color key="backgroundColor" red="0.96199898100000003" green="0.96199898100000003" blue="0.96199898100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <size key="minSize" width="250" height="124"/>
+                                                                            <size key="minSize" width="265" height="124"/>
                                                                             <size key="maxSize" width="463" height="10000000"/>
                                                                             <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                                            <size key="minSize" width="250" height="124"/>
+                                                                            <size key="minSize" width="265" height="124"/>
                                                                             <size key="maxSize" width="463" height="10000000"/>
                                                                             <connections>
                                                                                 <binding destination="100375" name="editable" keyPath="arrangedObjects.@count" id="Etu-0I-nqA"/>
@@ -435,7 +433,7 @@ IA
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                                 <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="oAx-Wi-tux">
-                                                                    <rect key="frame" x="250" y="0.0" width="15" height="124"/>
+                                                                    <rect key="frame" x="249" y="0.0" width="16" height="124"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </scroller>
                                                             </scrollView>
@@ -473,7 +471,6 @@ IA
                         <connections>
                             <action selector="chooseFromSharingServicePicker:" target="0p8-bA-Zd7" id="gOu-Gp-yxr"/>
                             <binding destination="100409" name="enabled" keyPath="arrangedObjects.@count" id="dAS-qw-UXd"/>
-                            <binding destination="EgJ-6o-lZs" name="hidden" keyPath="self.notPurchased" previousBinding="dAS-qw-UXd" id="Jza-uY-cas"/>
                             <outlet property="nextKeyView" destination="dJt-CJ-G2K" id="bbz-M3-X13"/>
                         </connections>
                     </button>
@@ -528,44 +525,8 @@ IA
                             <action selector="showHelp:" target="-1" id="tfX-sO-usW"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="6823723E-A83B-4242-8669-558C1A868306" label="PRO-Upgrade" paletteLabel="PRO-Upgrade" id="Mac-91-6Lv">
-                        <nil key="toolTip"/>
-                        <size key="minSize" width="116" height="17"/>
-                        <size key="maxSize" width="116" height="17"/>
-                        <button key="view" verticalHuggingPriority="750" id="IXM-Xo-WF8">
-                            <rect key="frame" x="0.0" y="14" width="116" height="17"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="inline" title="Upgrade to PRO" alternateTitle="Upgrade to PRO" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mOs-QU-asM">
-                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                <font key="font" metaFont="smallSystemBold"/>
-                            </buttonCell>
-                            <connections>
-                                <action selector="openIAPSheet:" target="EgJ-6o-lZs" id="5dj-G7-9fu"/>
-                                <binding destination="100415" name="hidden" keyPath="values.isStandard" id="snt-bP-mXB">
-                                    <dictionary key="options">
-                                        <integer key="NSMultipleValuesPlaceholder" value="0"/>
-                                        <integer key="NSNoSelectionPlaceholder" value="0"/>
-                                        <integer key="NSNotApplicablePlaceholder" value="0"/>
-                                        <integer key="NSNullPlaceholder" value="0"/>
-                                        <string key="NSValueTransformerName">NSNegateBoolean</string>
-                                    </dictionary>
-                                </binding>
-                            </connections>
-                        </button>
-                    </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="3DF55D46-60ED-43C3-ACBF-B3C0421CFD84" label="Purchase Progress" paletteLabel="Purchase Progress" tag="-1" id="OBu-rv-eKE">
-                        <nil key="toolTip"/>
-                        <size key="minSize" width="16" height="16"/>
-                        <size key="maxSize" width="16" height="16"/>
-                        <progressIndicator key="view" wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="MnX-95-1GB">
-                            <rect key="frame" x="45" y="14" width="16" height="16"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        </progressIndicator>
-                    </toolbarItem>
                 </allowedToolbarItems>
                 <defaultToolbarItems>
-                    <toolbarItem reference="Mac-91-6Lv"/>
-                    <toolbarItem reference="OBu-rv-eKE"/>
                     <toolbarItem reference="ehR-cw-N53"/>
                     <toolbarItem reference="NMB-KF-wDP"/>
                     <toolbarItem reference="Igy-2K-pqY"/>
@@ -584,13 +545,6 @@ IA
             </connections>
         </customObject>
         <customObject id="r2c-2z-d0T" userLabel="Integer Formatter" customClass="DHGRIntegerFormatter"/>
-        <customObject id="EgJ-6o-lZs" customClass="DHGRInAppPurchaseHelper">
-            <connections>
-                <outlet property="priceField" destination="9LO-3O-tqU" id="7bH-VC-bj2"/>
-                <outlet property="purchaseButton" destination="IXM-Xo-WF8" id="3d3-3A-s6X"/>
-                <outlet property="theIAPPanel" destination="0Rg-11-9YV" id="iMd-wZ-MJU"/>
-            </connections>
-        </customObject>
         <objectController mode="entity" entityName="Course" automaticallyPreparesContent="YES" id="100376" userLabel="Course Object Controller">
             <connections>
                 <binding destination="-2" name="managedObjectContext" keyPath="managedObjectContext" id="8Jv-GW-Lay"/>
@@ -913,7 +867,6 @@ AAAAAAAAAQg
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="theIAPSheetOK:" target="EgJ-6o-lZs" id="gVe-Ca-RNd"/>
                             <outlet property="nextKeyView" destination="o61-AR-kOZ" id="hTV-sL-sJN"/>
                         </connections>
                     </button>
@@ -924,9 +877,6 @@ AAAAAAAAAQg
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
-                        <connections>
-                            <action selector="theIAPSheetCancel:" target="EgJ-6o-lZs" id="hTj-g5-lvp"/>
-                        </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="2NS-IL-VO6">
                         <rect key="frame" x="98" y="283" width="244" height="25"/>
