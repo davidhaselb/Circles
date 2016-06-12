@@ -22,6 +22,7 @@ NSString *const DHGRPersonPBoardType = @"DHGRPersonPBoardType";
 @synthesize reports;
 @synthesize largerSplitView;
 
+
 - (instancetype)init {
   if (self = [super init]) {
   }
