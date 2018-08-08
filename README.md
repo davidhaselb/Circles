@@ -22,10 +22,10 @@ ATTENTION: Circles is designed to be used in conjunction with the "Contacts" app
 The source code of Circles is released under the [BSD License](https://en.wikipedia.org/wiki/BSD_licenses) and can be checked out at [GitHub](https://github.com/davidhaselb/Circles). Please support this project by [donating via PayPal](http://www.unet.univie.ac.at/~a0206600/TranscriptionsDonate.html).
 
 
-'Thanks to all supporters!'
+`Thanks to all supporters!`
 
 
-'Enjoy using Circles!'
+`Enjoy using Circles!`
 
 
 ## Screenshot
