@@ -32,7 +32,7 @@ The source code of Circles is released under the [BSD License](https://en.wikipe
 
 ## Screenshot
 
-CirclesScreenshot
+![Circles Screenshot](CirclesScreenshot.png)
 
 ## Support
 
