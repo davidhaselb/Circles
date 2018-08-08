@@ -1,3 +1,5 @@
+![Circles Icon](circles-icon.pdf)
+
 # Circles
 
 > Requirements: MacOS or Mac OS X 10.10 Yosemite or later
