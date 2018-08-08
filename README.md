@@ -19,15 +19,14 @@ ATTENTION: Circles is designed to be used in conjunction with the "Contacts" app
 
 ## Circles is Free/Libre Open Source Software
 
-The source code of Circles is released under the BSD License and can be checked out at GitHub. Please support this project by buying the app in the Mac AppStore or by donating via PayPal.
+The source code of Circles is released under the [BSD License](https://en.wikipedia.org/wiki/BSD_licenses) and can be checked out at [GitHub](https://github.com/davidhaselb/Circles). Please support this project by [donating via PayPal](http://www.unet.univie.ac.at/~a0206600/TranscriptionsDonate.html).
+
 
 Thanks to all supporters!
-GitHubLink
-
-PayPalDonations
 
 
 Enjoy using Circles!
+
 
 ## Screenshot
 
@@ -35,8 +34,7 @@ CirclesScreenshot
 
 ## Support
 
-Find support here.
-
+Find support [here](https://github.com/davidhaselb/Circles/projects/1).
 
 
 Mac, MacOS, and Mac OS X are trademarks of Apple, Inc.
