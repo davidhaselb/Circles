@@ -1,4 +1,4 @@
-![Circles Icon](circles-icon.png)
+![Circles Icon](circlesicon.png)
 
 # Circles
 
