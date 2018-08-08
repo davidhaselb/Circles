@@ -1,4 +1,4 @@
-![Circles Icon](circles-icon.pdf)
+![Circles Icon](circles-icon.png)
 
 # Circles
 
