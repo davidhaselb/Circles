@@ -38,5 +38,5 @@ The source code of Circles is released under the [BSD License](https://en.wikipe
 
 Find support [here](https://github.com/davidhaselb/Circles/projects/1).
 
-
-Mac, MacOS, and Mac OS X are trademarks of Apple, Inc.
+* * *
+_Mac, MacOS, and Mac OS X are trademarks of Apple, Inc._
