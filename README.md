@@ -2,7 +2,7 @@
 
 # Circles
 
-> Requirements: MacOS or Mac OS X 10.10 Yosemite or later
+> Requirements: MacOS or Mac OS X 14.0 Sonoma or later
 
 
 Circles aims to support people working in and with groups, in schools, companies and other institutions, who want to give feedback based on their in-class observations.
