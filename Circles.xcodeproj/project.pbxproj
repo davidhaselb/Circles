@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2BF8D717947CB30089A739 /* DHGRReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BF8D617947CB30089A739 /* DHGRReport.m */; };
+		0A2BF8DA17947D370089A739 /* DHGRStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BF8D917947D370089A739 /* DHGRStudent.m */; };
+		0A2BF8E2179E6CDD0089A739 /* DHGRReportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BF8E1179E6CDC0089A739 /* DHGRReportsTableViewController.m */; };
+		0A2EA3481A2778B10086367E /* PrintTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EA3461A2778B10086367E /* PrintTextView.m */; };
+		0A32C28A19A4B12C007B8415 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A32C28919A4B12C007B8415 /* QuartzCore.framework */; };
+		0A3793DE19AE067400AF0320 /* circles-icon-edit_16x16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3793DD19AE067400AF0320 /* circles-icon-edit_16x16.pdf */; };
+		0A37F7751BB1B52500EF40D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A37F7741BB1B52500EF40D1 /* StoreKit.framework */; };
+		0A4D04F619F5423C0057E4BA /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D04F519F5423C0057E4BA /* AppIcon.xcassets */; };
+		0A4D04F819F594CA0057E4BA /* DHGRDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6331A32D175A707D00E02D36 /* DHGRDocument.xib */; };
+		0A4D04F919F594DC0057E4BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6331A330175A707D00E02D36 /* MainMenu.xib */; };
+		0A6848371BCD291100BDF8B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6848361BCD291100BDF8B7 /* Security.framework */; };
+		0A6848391BCD292C00BDF8B7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6848381BCD292C00BDF8B7 /* IOKit.framework */; };
+		0A6DA44B19F676560080AEFC /* CirclesImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 6331A34E175A707E00E02D36 /* CirclesImporter.mdimporter */; };
+		0A725B7F1A6A991F00092679 /* DHGRIntegerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A725B7E1A6A991F00092679 /* DHGRIntegerFormatter.m */; };
+		0A725BC61A703E4D00092679 /* plus_icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A725BC51A703E4D00092679 /* plus_icon.pdf */; };
+		0A725BC81A703E5300092679 /* star_icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A725BC71A703E5300092679 /* star_icon.pdf */; };
+		0A755B97194A0BE40006F320 /* DHGRStudentTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A755B96194A0BE40006F320 /* DHGRStudentTableCellView.m */; };
+		0A755B9A194A12460006F320 /* DHGRSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A755B99194A12460006F320 /* DHGRSplitView.m */; };
+		0A84B2A018032CD2002D6BD8 /* DHGRReportTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B29F18032CD2002D6BD8 /* DHGRReportTextField.m */; };
+		0A84B2A6180330FC002D6BD8 /* DHGRReportTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B2A5180330FC002D6BD8 /* DHGRReportTableView.m */; };
+		0A9302D1195B3B45001232C0 /* circles_documentIcon_1024x1024.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0A9302D0195B3B45001232C0 /* circles_documentIcon_1024x1024.icns */; };
+		0A933BA21959AF5E003B3DE9 /* DHGRSharingServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A933BA11959AF5E003B3DE9 /* DHGRSharingServiceController.m */; };
+		0A93676A1938ED0D00416549 /* DHGROrderedSetValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9367691938ED0D00416549 /* DHGROrderedSetValueTransformer.m */; };
+		0A967260195DAC430043538A /* GenericDocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0A96725F195DAC430043538A /* GenericDocumentIcon.icns */; };
+		0A967263195EB1360043538A /* DHGRExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A967262195EB1360043538A /* DHGRExportController.m */; };
+		0A967266195F2F010043538A /* DHGRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A967265195F2F010043538A /* DHGRImageView.m */; };
+		0A967269195F34600043538A /* DHGRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A967268195F34600043538A /* DHGRImage.m */; };
+		0A977BBD1955D9D7007ED431 /* circles-icon-edit_16x16_Template.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A977BBC1955D9D7007ED431 /* circles-icon-edit_16x16_Template.pdf */; };
+		0A977BBF1955DB60007ED431 /* circles-icon-edit_inv_16x16_Template.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A977BBE1955DB60007ED431 /* circles-icon-edit_inv_16x16_Template.pdf */; };
+		0A977BC21958118F007ED431 /* DHGRReportsTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A977BC11958118F007ED431 /* DHGRReportsTableCellView.m */; };
+		0A977BC4195816F1007ED431 /* circles-icon_512x512@2x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A977BC3195816F1007ED431 /* circles-icon_512x512@2x.pdf */; };
+		0A98E7451876F84C00F83A03 /* DHGRPortraitTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98E7441876F84C00F83A03 /* DHGRPortraitTransformer.m */; };
+		0A9DA391192FBECC009C7584 /* DHGRRibbonBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DA390192FBECC009C7584 /* DHGRRibbonBGView.m */; };
+		0A9F107F18ED53450085FC6B /* DHGRDateButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F107E18ED53450085FC6B /* DHGRDateButtonCell.m */; };
+		0A9F108418ED74F30085FC6B /* DHGRInsertFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F108218ED74F30085FC6B /* DHGRInsertFieldEditor.m */; };
+		0AA004E91860B8E10064BC64 /* DHGRSearchFieldFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA004E81860B8E10064BC64 /* DHGRSearchFieldFieldEditor.m */; };
+		0AA7B144189FC3BF003B30F0 /* DHGRInsertTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7B143189FC3BF003B30F0 /* DHGRInsertTextView.m */; };
+		0AA7B147189FD3B4003B30F0 /* DHGRWhiteColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7B146189FD3B4003B30F0 /* DHGRWhiteColorView.m */; };
+		0AD61C5119B0CDEF000C9979 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61C5019B0CDEF000C9979 /* PhoneNumber.m */; };
+		0AD61C5419B0CDF0000C9979 /* EmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD61C5319B0CDF0000C9979 /* EmailAddress.m */; };
+		0ADC6C75194A47440020B63A /* DHGRStartScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC6C74194A47440020B63A /* DHGRStartScreenView.m */; };
+		0AF20CB119F4669900FC7609 /* DHGRAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF20CB019F4669900FC7609 /* DHGRAddress.m */; };
+		6331A319175A707D00E02D36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A318175A707D00E02D36 /* Cocoa.framework */; };
+		6331A323175A707D00E02D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6331A321175A707D00E02D36 /* InfoPlist.strings */; };
+		6331A325175A707D00E02D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331A324175A707D00E02D36 /* main.m */; };
+		6331A329175A707D00E02D36 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6331A327175A707D00E02D36 /* Credits.rtf */; };
+		6331A32C175A707D00E02D36 /* DHGRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331A32B175A707D00E02D36 /* DHGRDocument.m */; };
+		6331A335175A707D00E02D36 /* DHGRDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6331A333175A707D00E02D36 /* DHGRDocument.xcdatamodeld */; };
+		6331A33E175A707E00E02D36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A318175A707D00E02D36 /* Cocoa.framework */; };
+		6331A346175A707E00E02D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6331A344175A707E00E02D36 /* InfoPlist.strings */; };
+		6331A349175A707E00E02D36 /* GroupsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331A348175A707E00E02D36 /* GroupsTests.m */; };
+		6331A353175A707E00E02D36 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A352175A707E00E02D36 /* CoreServices.framework */; };
+		6331A355175A707E00E02D36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A354175A707E00E02D36 /* CoreFoundation.framework */; };
+		6331A357175A707E00E02D36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A356175A707E00E02D36 /* CoreData.framework */; };
+		6331A359175A707E00E02D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6331A358175A707E00E02D36 /* Foundation.framework */; };
+		6331A35F175A707E00E02D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6331A35D175A707E00E02D36 /* InfoPlist.strings */; };
+		6331A361175A707E00E02D36 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6331A360175A707E00E02D36 /* main.c */; };
+		6331A363175A707E00E02D36 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331A362175A707E00E02D36 /* GetMetadataForFile.m */; };
+		6331A366175A707E00E02D36 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331A365175A707E00E02D36 /* MySpotlightImporter.m */; };
+		637B4552176B137900DEC205 /* DHGRStudentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 637B4551176B137900DEC205 /* DHGRStudentTableView.m */; };
+		639AFA031770BD7300C003D4 /* DHGRStudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AFA021770BD7300C003D4 /* DHGRStudentTableViewController.m */; };
+		639AFA071770C43500C003D4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639AFA061770C43500C003D4 /* AddressBook.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6331A33F175A707E00E02D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6331A30D175A707D00E02D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6331A314175A707D00E02D36;
+			remoteInfo = Groups;
+		};
+		6331A34F175A707E00E02D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6331A30D175A707D00E02D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6331A34D175A707E00E02D36;
+			remoteInfo = GroupsImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2BF8D517947CB30089A739 /* DHGRReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRReport.h; sourceTree = "<group>"; };
+		0A2BF8D617947CB30089A739 /* DHGRReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRReport.m; sourceTree = "<group>"; };
+		0A2BF8D817947D370089A739 /* DHGRStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRStudent.h; sourceTree = "<group>"; };
+		0A2BF8D917947D370089A739 /* DHGRStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRStudent.m; sourceTree = "<group>"; };
+		0A2BF8E0179E6CDC0089A739 /* DHGRReportsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRReportsTableViewController.h; sourceTree = "<group>"; };
+		0A2BF8E1179E6CDC0089A739 /* DHGRReportsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRReportsTableViewController.m; sourceTree = "<group>"; };
+		0A2EA3451A2778B10086367E /* PrintTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintTextView.h; sourceTree = "<group>"; };
+		0A2EA3461A2778B10086367E /* PrintTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintTextView.m; sourceTree = "<group>"; };
+		0A32C28919A4B12C007B8415 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0A3793DD19AE067400AF0320 /* circles-icon-edit_16x16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "circles-icon-edit_16x16.pdf"; sourceTree = "<group>"; };
+		0A37F7741BB1B52500EF40D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0A4D04F519F5423C0057E4BA /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		0A4E88E32B62D5B900DF894E /* CirclesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CirclesIcon.png; sourceTree = "<group>"; };
+		0A4E88E92B62D94600DF894E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/help.html; sourceTree = "<group>"; };
+		0A4E88EE2B640E6600DF894E /* index.myCirclesHelpPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.myCirclesHelpPic.jpg; sourceTree = "<group>"; };
+		0A6848361BCD291100BDF8B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A6848381BCD292C00BDF8B7 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		0A725B7D1A6A991F00092679 /* DHGRIntegerFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRIntegerFormatter.h; sourceTree = "<group>"; };
+		0A725B7E1A6A991F00092679 /* DHGRIntegerFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRIntegerFormatter.m; sourceTree = "<group>"; };
+		0A725BC51A703E4D00092679 /* plus_icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = plus_icon.pdf; sourceTree = "<group>"; };
+		0A725BC71A703E5300092679 /* star_icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = star_icon.pdf; sourceTree = "<group>"; };
+		0A755B95194A0BE40006F320 /* DHGRStudentTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRStudentTableCellView.h; sourceTree = "<group>"; };
+		0A755B96194A0BE40006F320 /* DHGRStudentTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRStudentTableCellView.m; sourceTree = "<group>"; };
+		0A755B98194A12460006F320 /* DHGRSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRSplitView.h; sourceTree = "<group>"; };
+		0A755B99194A12460006F320 /* DHGRSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRSplitView.m; sourceTree = "<group>"; };
+		0A84B29E18032CD2002D6BD8 /* DHGRReportTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRReportTextField.h; sourceTree = "<group>"; };
+		0A84B29F18032CD2002D6BD8 /* DHGRReportTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRReportTextField.m; sourceTree = "<group>"; };
+		0A84B2A4180330FC002D6BD8 /* DHGRReportTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRReportTableView.h; sourceTree = "<group>"; };
+		0A84B2A5180330FC002D6BD8 /* DHGRReportTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRReportTableView.m; sourceTree = "<group>"; };
+		0A9302D0195B3B45001232C0 /* circles_documentIcon_1024x1024.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = circles_documentIcon_1024x1024.icns; sourceTree = "<group>"; };
+		0A933BA01959AF5E003B3DE9 /* DHGRSharingServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRSharingServiceController.h; sourceTree = "<group>"; };
+		0A933BA11959AF5E003B3DE9 /* DHGRSharingServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRSharingServiceController.m; sourceTree = "<group>"; };
+		0A9367681938ED0D00416549 /* DHGROrderedSetValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGROrderedSetValueTransformer.h; sourceTree = "<group>"; };
+		0A9367691938ED0D00416549 /* DHGROrderedSetValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGROrderedSetValueTransformer.m; sourceTree = "<group>"; };
+		0A96725F195DAC430043538A /* GenericDocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GenericDocumentIcon.icns; sourceTree = "<group>"; };
+		0A967261195EB1360043538A /* DHGRExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRExportController.h; sourceTree = "<group>"; };
+		0A967262195EB1360043538A /* DHGRExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRExportController.m; sourceTree = "<group>"; };
+		0A967264195F2F010043538A /* DHGRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRImageView.h; sourceTree = "<group>"; };
+		0A967265195F2F010043538A /* DHGRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRImageView.m; sourceTree = "<group>"; };
+		0A967267195F34600043538A /* DHGRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRImage.h; sourceTree = "<group>"; };
+		0A967268195F34600043538A /* DHGRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRImage.m; sourceTree = "<group>"; };
+		0A977BBC1955D9D7007ED431 /* circles-icon-edit_16x16_Template.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "circles-icon-edit_16x16_Template.pdf"; sourceTree = "<group>"; };
+		0A977BBE1955DB60007ED431 /* circles-icon-edit_inv_16x16_Template.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "circles-icon-edit_inv_16x16_Template.pdf"; sourceTree = "<group>"; };
+		0A977BC01958118F007ED431 /* DHGRReportsTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRReportsTableCellView.h; sourceTree = "<group>"; };
+		0A977BC11958118F007ED431 /* DHGRReportsTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRReportsTableCellView.m; sourceTree = "<group>"; };
+		0A977BC3195816F1007ED431 /* circles-icon_512x512@2x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "circles-icon_512x512@2x.pdf"; sourceTree = "<group>"; };
+		0A98E7431876F84C00F83A03 /* DHGRPortraitTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRPortraitTransformer.h; sourceTree = "<group>"; };
+		0A98E7441876F84C00F83A03 /* DHGRPortraitTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRPortraitTransformer.m; sourceTree = "<group>"; };
+		0A98E74618789C4400F83A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DHGRDocument.xib; sourceTree = "<group>"; };
+		0A98E74718789C4400F83A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A9DA38F192FBECC009C7584 /* DHGRRibbonBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRRibbonBGView.h; sourceTree = "<group>"; };
+		0A9DA390192FBECC009C7584 /* DHGRRibbonBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRRibbonBGView.m; sourceTree = "<group>"; };
+		0A9F107D18ED53450085FC6B /* DHGRDateButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRDateButtonCell.h; sourceTree = "<group>"; };
+		0A9F107E18ED53450085FC6B /* DHGRDateButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRDateButtonCell.m; sourceTree = "<group>"; };
+		0A9F108218ED74F30085FC6B /* DHGRInsertFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRInsertFieldEditor.m; sourceTree = "<group>"; };
+		0A9F108318ED74F30085FC6B /* DHGRInsertFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRInsertFieldEditor.h; sourceTree = "<group>"; };
+		0AA004E71860B8E10064BC64 /* DHGRSearchFieldFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRSearchFieldFieldEditor.h; sourceTree = "<group>"; };
+		0AA004E81860B8E10064BC64 /* DHGRSearchFieldFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRSearchFieldFieldEditor.m; sourceTree = "<group>"; };
+		0AA7B142189FC3BF003B30F0 /* DHGRInsertTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRInsertTextView.h; sourceTree = "<group>"; };
+		0AA7B143189FC3BF003B30F0 /* DHGRInsertTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRInsertTextView.m; sourceTree = "<group>"; };
+		0AA7B145189FD3B4003B30F0 /* DHGRWhiteColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRWhiteColorView.h; sourceTree = "<group>"; };
+		0AA7B146189FD3B4003B30F0 /* DHGRWhiteColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRWhiteColorView.m; sourceTree = "<group>"; };
+		0AB8A262196AB7F600C5DD55 /* Circles-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Circles-Prefix.pch"; sourceTree = "<group>"; };
+		0AD61C4E19B0CDEF000C9979 /* Circles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circles-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AD61C4F19B0CDEF000C9979 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		0AD61C5019B0CDEF000C9979 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
+		0AD61C5219B0CDF0000C9979 /* EmailAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAddress.h; sourceTree = "<group>"; };
+		0AD61C5319B0CDF0000C9979 /* EmailAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAddress.m; sourceTree = "<group>"; };
+		0ADC6C73194A47440020B63A /* DHGRStartScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRStartScreenView.h; sourceTree = "<group>"; };
+		0ADC6C74194A47440020B63A /* DHGRStartScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRStartScreenView.m; sourceTree = "<group>"; };
+		0AF20CAF19F4669900FC7609 /* DHGRAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRAddress.h; sourceTree = "<group>"; };
+		0AF20CB019F4669900FC7609 /* DHGRAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRAddress.m; sourceTree = "<group>"; };
+		6331A315175A707D00E02D36 /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6331A318175A707D00E02D36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6331A31B175A707D00E02D36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6331A31C175A707D00E02D36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6331A31D175A707D00E02D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6331A320175A707D00E02D36 /* Circles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circles-Info.plist"; sourceTree = "<group>"; };
+		6331A322175A707D00E02D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6331A324175A707D00E02D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6331A326175A707D00E02D36 /* Circles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circles-Prefix.pch"; sourceTree = "<group>"; };
+		6331A328175A707D00E02D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6331A32A175A707D00E02D36 /* DHGRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHGRDocument.h; sourceTree = "<group>"; };
+		6331A32B175A707D00E02D36 /* DHGRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHGRDocument.m; sourceTree = "<group>"; };
+		6331A334175A707D00E02D36 /* DHGRDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DHGRDocument.xcdatamodel; sourceTree = "<group>"; };
+		6331A33B175A707D00E02D36 /* CirclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6331A343175A707E00E02D36 /* CirclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CirclesTests-Info.plist"; sourceTree = "<group>"; };
+		6331A345175A707E00E02D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6331A347175A707E00E02D36 /* GroupsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupsTests.h; sourceTree = "<group>"; };
+		6331A348175A707E00E02D36 /* GroupsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupsTests.m; sourceTree = "<group>"; };
+		6331A34E175A707E00E02D36 /* CirclesImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclesImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		6331A352175A707E00E02D36 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		6331A354175A707E00E02D36 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6331A356175A707E00E02D36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6331A358175A707E00E02D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6331A35C175A707E00E02D36 /* CirclesImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CirclesImporter-Info.plist"; sourceTree = "<group>"; };
+		6331A35E175A707E00E02D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6331A360175A707E00E02D36 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6331A362175A707E00E02D36 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		6331A364175A707E00E02D36 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		6331A365175A707E00E02D36 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		6331A367175A707E00E02D36 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		6331A368175A707E00E02D36 /* CirclesImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CirclesImporter-Prefix.pch"; sourceTree = "<group>"; };
+		6331A374175A709E00E02D36 /* Circles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Circles.entitlements; sourceTree = "<group>"; };
+		637B4550176B137900DEC205 /* DHGRStudentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRStudentTableView.h; sourceTree = "<group>"; };
+		637B4551176B137900DEC205 /* DHGRStudentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRStudentTableView.m; sourceTree = "<group>"; };
+		639AFA011770BD7300C003D4 /* DHGRStudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGRStudentTableViewController.h; sourceTree = "<group>"; };
+		639AFA021770BD7300C003D4 /* DHGRStudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGRStudentTableViewController.m; sourceTree = "<group>"; };
+		639AFA061770C43500C003D4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6331A312175A707D00E02D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6848391BCD292C00BDF8B7 /* IOKit.framework in Frameworks */,
+				0A6848371BCD291100BDF8B7 /* Security.framework in Frameworks */,
+				0A32C28A19A4B12C007B8415 /* QuartzCore.framework in Frameworks */,
+				639AFA071770C43500C003D4 /* AddressBook.framework in Frameworks */,
+				6331A319175A707D00E02D36 /* Cocoa.framework in Frameworks */,
+				0A37F7751BB1B52500EF40D1 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A337175A707D00E02D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A33E175A707E00E02D36 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A34B175A707E00E02D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A353175A707E00E02D36 /* CoreServices.framework in Frameworks */,
+				6331A355175A707E00E02D36 /* CoreFoundation.framework in Frameworks */,
+				6331A357175A707E00E02D36 /* CoreData.framework in Frameworks */,
+				6331A359175A707E00E02D36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2EA3421A2778970086367E /* ExternalSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ExternalSources;
+			sourceTree = "<group>";
+		};
+		6331A30C175A707D00E02D36 = {
+			isa = PBXGroup;
+			children = (
+				0AB8A262196AB7F600C5DD55 /* Circles-Prefix.pch */,
+				6331A31E175A707D00E02D36 /* Circles */,
+				6331A341175A707E00E02D36 /* CirclesTests */,
+				6331A35A175A707E00E02D36 /* CirclesImporter */,
+				6331A317175A707D00E02D36 /* Frameworks */,
+				6331A316175A707D00E02D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6331A316175A707D00E02D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6331A315175A707D00E02D36 /* Circles.app */,
+				6331A33B175A707D00E02D36 /* CirclesTests.xctest */,
+				6331A34E175A707E00E02D36 /* CirclesImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6331A317175A707D00E02D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A6848381BCD292C00BDF8B7 /* IOKit.framework */,
+				0A6848361BCD291100BDF8B7 /* Security.framework */,
+				0A37F7741BB1B52500EF40D1 /* StoreKit.framework */,
+				0A32C28919A4B12C007B8415 /* QuartzCore.framework */,
+				639AFA061770C43500C003D4 /* AddressBook.framework */,
+				6331A318175A707D00E02D36 /* Cocoa.framework */,
+				6331A352175A707E00E02D36 /* CoreServices.framework */,
+				6331A354175A707E00E02D36 /* CoreFoundation.framework */,
+				6331A356175A707E00E02D36 /* CoreData.framework */,
+				6331A358175A707E00E02D36 /* Foundation.framework */,
+				6331A31A175A707D00E02D36 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6331A31A175A707D00E02D36 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6331A31B175A707D00E02D36 /* AppKit.framework */,
+				6331A31C175A707D00E02D36 /* CoreData.framework */,
+				6331A31D175A707D00E02D36 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6331A31E175A707D00E02D36 /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EA3421A2778970086367E /* ExternalSources */,
+				6391DB811770C63D008B0E46 /* Models */,
+				639AF9FD1770BCB300C003D4 /* Controllers */,
+				637B454F176B134B00DEC205 /* Views */,
+				6331A374175A709E00E02D36 /* Circles.entitlements */,
+				0A725B7D1A6A991F00092679 /* DHGRIntegerFormatter.h */,
+				0A725B7E1A6A991F00092679 /* DHGRIntegerFormatter.m */,
+				0A967267195F34600043538A /* DHGRImage.h */,
+				0A967268195F34600043538A /* DHGRImage.m */,
+				6331A32A175A707D00E02D36 /* DHGRDocument.h */,
+				6331A32B175A707D00E02D36 /* DHGRDocument.m */,
+				0A98E7431876F84C00F83A03 /* DHGRPortraitTransformer.h */,
+				0A98E7441876F84C00F83A03 /* DHGRPortraitTransformer.m */,
+				6331A32D175A707D00E02D36 /* DHGRDocument.xib */,
+				6331A330175A707D00E02D36 /* MainMenu.xib */,
+				6331A31F175A707D00E02D36 /* Supporting Files */,
+				0A9367681938ED0D00416549 /* DHGROrderedSetValueTransformer.h */,
+				0A9367691938ED0D00416549 /* DHGROrderedSetValueTransformer.m */,
+				0A4D04F519F5423C0057E4BA /* AppIcon.xcassets */,
+			);
+			name = Circles;
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		6331A31F175A707D00E02D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E88E32B62D5B900DF894E /* CirclesIcon.png */,
+				0A4E88EE2B640E6600DF894E /* index.myCirclesHelpPic.jpg */,
+				0A4E88EA2B62D94600DF894E /* help.html */,
+				0A725BC51A703E4D00092679 /* plus_icon.pdf */,
+				0A725BC71A703E5300092679 /* star_icon.pdf */,
+				0A96725F195DAC430043538A /* GenericDocumentIcon.icns */,
+				0A9302D0195B3B45001232C0 /* circles_documentIcon_1024x1024.icns */,
+				0A3793DD19AE067400AF0320 /* circles-icon-edit_16x16.pdf */,
+				0A977BC3195816F1007ED431 /* circles-icon_512x512@2x.pdf */,
+				0A977BBE1955DB60007ED431 /* circles-icon-edit_inv_16x16_Template.pdf */,
+				0A977BBC1955D9D7007ED431 /* circles-icon-edit_16x16_Template.pdf */,
+				6331A320175A707D00E02D36 /* Circles-Info.plist */,
+				6331A321175A707D00E02D36 /* InfoPlist.strings */,
+				6331A324175A707D00E02D36 /* main.m */,
+				6331A326175A707D00E02D36 /* Circles-Prefix.pch */,
+				6331A327175A707D00E02D36 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6331A341175A707E00E02D36 /* CirclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6331A347175A707E00E02D36 /* GroupsTests.h */,
+				6331A348175A707E00E02D36 /* GroupsTests.m */,
+				6331A342175A707E00E02D36 /* Supporting Files */,
+			);
+			name = CirclesTests;
+			path = GroupsTests;
+			sourceTree = "<group>";
+		};
+		6331A342175A707E00E02D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6331A343175A707E00E02D36 /* CirclesTests-Info.plist */,
+				6331A344175A707E00E02D36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6331A35A175A707E00E02D36 /* CirclesImporter */ = {
+			isa = PBXGroup;
+			children = (
+				6331A362175A707E00E02D36 /* GetMetadataForFile.m */,
+				6331A364175A707E00E02D36 /* MySpotlightImporter.h */,
+				6331A365175A707E00E02D36 /* MySpotlightImporter.m */,
+				6331A367175A707E00E02D36 /* Importer Read Me.txt */,
+				6331A35B175A707E00E02D36 /* Supporting Files */,
+			);
+			name = CirclesImporter;
+			path = GroupsImporter;
+			sourceTree = "<group>";
+		};
+		6331A35B175A707E00E02D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6331A35C175A707E00E02D36 /* CirclesImporter-Info.plist */,
+				6331A35D175A707E00E02D36 /* InfoPlist.strings */,
+				6331A360175A707E00E02D36 /* main.c */,
+				6331A368175A707E00E02D36 /* CirclesImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637B454F176B134B00DEC205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EA3451A2778B10086367E /* PrintTextView.h */,
+				0A2EA3461A2778B10086367E /* PrintTextView.m */,
+				0A9F108318ED74F30085FC6B /* DHGRInsertFieldEditor.h */,
+				0A9F108218ED74F30085FC6B /* DHGRInsertFieldEditor.m */,
+				637B4550176B137900DEC205 /* DHGRStudentTableView.h */,
+				637B4551176B137900DEC205 /* DHGRStudentTableView.m */,
+				0A84B29E18032CD2002D6BD8 /* DHGRReportTextField.h */,
+				0A84B29F18032CD2002D6BD8 /* DHGRReportTextField.m */,
+				0A84B2A4180330FC002D6BD8 /* DHGRReportTableView.h */,
+				0A84B2A5180330FC002D6BD8 /* DHGRReportTableView.m */,
+				0AA004E71860B8E10064BC64 /* DHGRSearchFieldFieldEditor.h */,
+				0AA004E81860B8E10064BC64 /* DHGRSearchFieldFieldEditor.m */,
+				0AA7B142189FC3BF003B30F0 /* DHGRInsertTextView.h */,
+				0AA7B143189FC3BF003B30F0 /* DHGRInsertTextView.m */,
+				0AA7B145189FD3B4003B30F0 /* DHGRWhiteColorView.h */,
+				0AA7B146189FD3B4003B30F0 /* DHGRWhiteColorView.m */,
+				0A9F107D18ED53450085FC6B /* DHGRDateButtonCell.h */,
+				0A9F107E18ED53450085FC6B /* DHGRDateButtonCell.m */,
+				0A9DA38F192FBECC009C7584 /* DHGRRibbonBGView.h */,
+				0A9DA390192FBECC009C7584 /* DHGRRibbonBGView.m */,
+				0A755B95194A0BE40006F320 /* DHGRStudentTableCellView.h */,
+				0A755B96194A0BE40006F320 /* DHGRStudentTableCellView.m */,
+				0A755B98194A12460006F320 /* DHGRSplitView.h */,
+				0A755B99194A12460006F320 /* DHGRSplitView.m */,
+				0ADC6C73194A47440020B63A /* DHGRStartScreenView.h */,
+				0ADC6C74194A47440020B63A /* DHGRStartScreenView.m */,
+				0A977BC01958118F007ED431 /* DHGRReportsTableCellView.h */,
+				0A977BC11958118F007ED431 /* DHGRReportsTableCellView.m */,
+				0A967264195F2F010043538A /* DHGRImageView.h */,
+				0A967265195F2F010043538A /* DHGRImageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6391DB811770C63D008B0E46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6331A333175A707D00E02D36 /* DHGRDocument.xcdatamodeld */,
+				0AF20CAF19F4669900FC7609 /* DHGRAddress.h */,
+				0AF20CB019F4669900FC7609 /* DHGRAddress.m */,
+				0AD61C5219B0CDF0000C9979 /* EmailAddress.h */,
+				0AD61C5319B0CDF0000C9979 /* EmailAddress.m */,
+				0AD61C4F19B0CDEF000C9979 /* PhoneNumber.h */,
+				0AD61C5019B0CDEF000C9979 /* PhoneNumber.m */,
+				0A2BF8D517947CB30089A739 /* DHGRReport.h */,
+				0A2BF8D617947CB30089A739 /* DHGRReport.m */,
+				0A2BF8D817947D370089A739 /* DHGRStudent.h */,
+				0A2BF8D917947D370089A739 /* DHGRStudent.m */,
+				0AD61C4E19B0CDEF000C9979 /* Circles-Bridging-Header.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		639AF9FD1770BCB300C003D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				639AFA011770BD7300C003D4 /* DHGRStudentTableViewController.h */,
+				639AFA021770BD7300C003D4 /* DHGRStudentTableViewController.m */,
+				0A2BF8E0179E6CDC0089A739 /* DHGRReportsTableViewController.h */,
+				0A2BF8E1179E6CDC0089A739 /* DHGRReportsTableViewController.m */,
+				0A933BA01959AF5E003B3DE9 /* DHGRSharingServiceController.h */,
+				0A933BA11959AF5E003B3DE9 /* DHGRSharingServiceController.m */,
+				0A967261195EB1360043538A /* DHGRExportController.h */,
+				0A967262195EB1360043538A /* DHGRExportController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6331A314175A707D00E02D36 /* Circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6331A36E175A707E00E02D36 /* Build configuration list for PBXNativeTarget "Circles" */;
+			buildPhases = (
+				6331A311175A707D00E02D36 /* Sources */,
+				6331A312175A707D00E02D36 /* Frameworks */,
+				6331A313175A707D00E02D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6331A350175A707E00E02D36 /* PBXTargetDependency */,
+			);
+			name = Circles;
+			productName = Groups;
+			productReference = 6331A315175A707D00E02D36 /* Circles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6331A33A175A707D00E02D36 /* CirclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6331A371175A707E00E02D36 /* Build configuration list for PBXNativeTarget "CirclesTests" */;
+			buildPhases = (
+				6331A336175A707D00E02D36 /* Sources */,
+				6331A337175A707D00E02D36 /* Frameworks */,
+				6331A338175A707D00E02D36 /* Resources */,
+				6331A339175A707D00E02D36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6331A340175A707E00E02D36 /* PBXTargetDependency */,
+			);
+			name = CirclesTests;
+			productName = GroupsTests;
+			productReference = 6331A33B175A707D00E02D36 /* CirclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6331A34D175A707E00E02D36 /* CirclesImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6331A36B175A707E00E02D36 /* Build configuration list for PBXNativeTarget "CirclesImporter" */;
+			buildPhases = (
+				6331A34A175A707E00E02D36 /* Sources */,
+				6331A34B175A707E00E02D36 /* Frameworks */,
+				6331A34C175A707E00E02D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CirclesImporter;
+			productName = GroupsImporter;
+			productReference = 6331A34E175A707E00E02D36 /* CirclesImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6331A30D175A707D00E02D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				CLASSPREFIX = DHGR;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "David Haselberger";
+				TargetAttributes = {
+					6331A314175A707D00E02D36 = {
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					6331A33A175A707D00E02D36 = {
+						TestTargetID = 6331A314175A707D00E02D36;
+					};
+				};
+			};
+			buildConfigurationList = 6331A310175A707D00E02D36 /* Build configuration list for PBXProject "Circles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6331A30C175A707D00E02D36;
+			productRefGroup = 6331A316175A707D00E02D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6331A314175A707D00E02D36 /* Circles */,
+				6331A33A175A707D00E02D36 /* CirclesTests */,
+				6331A34D175A707E00E02D36 /* CirclesImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6331A313175A707D00E02D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6DA44B19F676560080AEFC /* CirclesImporter.mdimporter in Resources */,
+				0A4D04F919F594DC0057E4BA /* MainMenu.xib in Resources */,
+				0A725BC81A703E5300092679 /* star_icon.pdf in Resources */,
+				0A4D04F819F594CA0057E4BA /* DHGRDocument.xib in Resources */,
+				0A967260195DAC430043538A /* GenericDocumentIcon.icns in Resources */,
+				0A977BBF1955DB60007ED431 /* circles-icon-edit_inv_16x16_Template.pdf in Resources */,
+				0A725BC61A703E4D00092679 /* plus_icon.pdf in Resources */,
+				6331A323175A707D00E02D36 /* InfoPlist.strings in Resources */,
+				0A4D04F619F5423C0057E4BA /* AppIcon.xcassets in Resources */,
+				0A9302D1195B3B45001232C0 /* circles_documentIcon_1024x1024.icns in Resources */,
+				6331A329175A707D00E02D36 /* Credits.rtf in Resources */,
+				0A3793DE19AE067400AF0320 /* circles-icon-edit_16x16.pdf in Resources */,
+				0A977BC4195816F1007ED431 /* circles-icon_512x512@2x.pdf in Resources */,
+				0A977BBD1955D9D7007ED431 /* circles-icon-edit_16x16_Template.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A338175A707D00E02D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A346175A707E00E02D36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A34C175A707E00E02D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A35F175A707E00E02D36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6331A339175A707D00E02D36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6331A311175A707D00E02D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A967266195F2F010043538A /* DHGRImageView.m in Sources */,
+				0A755B97194A0BE40006F320 /* DHGRStudentTableCellView.m in Sources */,
+				0A93676A1938ED0D00416549 /* DHGROrderedSetValueTransformer.m in Sources */,
+				0A933BA21959AF5E003B3DE9 /* DHGRSharingServiceController.m in Sources */,
+				6331A325175A707D00E02D36 /* main.m in Sources */,
+				0A2EA3481A2778B10086367E /* PrintTextView.m in Sources */,
+				0A9DA391192FBECC009C7584 /* DHGRRibbonBGView.m in Sources */,
+				6331A32C175A707D00E02D36 /* DHGRDocument.m in Sources */,
+				6331A335175A707D00E02D36 /* DHGRDocument.xcdatamodeld in Sources */,
+				0A755B9A194A12460006F320 /* DHGRSplitView.m in Sources */,
+				637B4552176B137900DEC205 /* DHGRStudentTableView.m in Sources */,
+				0A84B2A018032CD2002D6BD8 /* DHGRReportTextField.m in Sources */,
+				0AD61C5419B0CDF0000C9979 /* EmailAddress.m in Sources */,
+				639AFA031770BD7300C003D4 /* DHGRStudentTableViewController.m in Sources */,
+				0AA7B147189FD3B4003B30F0 /* DHGRWhiteColorView.m in Sources */,
+				0AD61C5119B0CDEF000C9979 /* PhoneNumber.m in Sources */,
+				0A967263195EB1360043538A /* DHGRExportController.m in Sources */,
+				0A9F108418ED74F30085FC6B /* DHGRInsertFieldEditor.m in Sources */,
+				0A977BC21958118F007ED431 /* DHGRReportsTableCellView.m in Sources */,
+				0A967269195F34600043538A /* DHGRImage.m in Sources */,
+				0A98E7451876F84C00F83A03 /* DHGRPortraitTransformer.m in Sources */,
+				0AA004E91860B8E10064BC64 /* DHGRSearchFieldFieldEditor.m in Sources */,
+				0A725B7F1A6A991F00092679 /* DHGRIntegerFormatter.m in Sources */,
+				0AA7B144189FC3BF003B30F0 /* DHGRInsertTextView.m in Sources */,
+				0AF20CB119F4669900FC7609 /* DHGRAddress.m in Sources */,
+				0A2BF8D717947CB30089A739 /* DHGRReport.m in Sources */,
+				0A9F107F18ED53450085FC6B /* DHGRDateButtonCell.m in Sources */,
+				0ADC6C75194A47440020B63A /* DHGRStartScreenView.m in Sources */,
+				0A84B2A6180330FC002D6BD8 /* DHGRReportTableView.m in Sources */,
+				0A2BF8DA17947D370089A739 /* DHGRStudent.m in Sources */,
+				0A2BF8E2179E6CDD0089A739 /* DHGRReportsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A336175A707D00E02D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A349175A707E00E02D36 /* GroupsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331A34A175A707E00E02D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6331A361175A707E00E02D36 /* main.c in Sources */,
+				6331A363175A707E00E02D36 /* GetMetadataForFile.m in Sources */,
+				6331A366175A707E00E02D36 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6331A340175A707E00E02D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6331A314175A707D00E02D36 /* Circles */;
+			targetProxy = 6331A33F175A707E00E02D36 /* PBXContainerItemProxy */;
+		};
+		6331A350175A707E00E02D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6331A34D175A707E00E02D36 /* CirclesImporter */;
+			targetProxy = 6331A34F175A707E00E02D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4E88EA2B62D94600DF894E /* help.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4E88E92B62D94600DF894E /* en */,
+			);
+			name = help.html;
+			sourceTree = "<group>";
+		};
+		6331A321175A707D00E02D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6331A322175A707D00E02D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6331A327175A707D00E02D36 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6331A328175A707D00E02D36 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6331A32D175A707D00E02D36 /* DHGRDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A98E74618789C4400F83A03 /* Base */,
+			);
+			name = DHGRDocument.xib;
+			sourceTree = "<group>";
+		};
+		6331A330175A707D00E02D36 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A98E74718789C4400F83A03 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6331A344175A707E00E02D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6331A345175A707E00E02D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6331A35D175A707E00E02D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6331A35E175A707E00E02D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6331A369175A707E00E02D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: David Haselberger (M9AG4A3F6L)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Participants of groups are selected from contacts (on device)";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "5d5465df-e178-46a4-8a16-292cf0fc5694";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6331A36A175A707E00E02D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: David Haselberger (M9AG4A3F6L)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Participants of groups are selected from contacts (on device)";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PROVISIONING_PROFILE = "5d5465df-e178-46a4-8a16-292cf0fc5694";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6331A36C175A707E00E02D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupsImporter/CirclesImporter-Prefix.pch";
+				INFOPLIST_FILE = "GroupsImporter/CirclesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soleilalpin.circles;
+				PRODUCT_NAME = CirclesImporter;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		6331A36D175A707E00E02D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupsImporter/CirclesImporter-Prefix.pch";
+				INFOPLIST_FILE = "GroupsImporter/CirclesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soleilalpin.circles;
+				PRODUCT_NAME = CirclesImporter;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		6331A36F175A707E00E02D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = Groups/Circles.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Groups/Circles-Prefix.pch";
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Groups/Circles-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soleilalpin.circles;
+				PRODUCT_NAME = Circles;
+				PROVISIONING_PROFILE = Automatic;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Groups/Circles-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6331A370175A707E00E02D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = Groups/Circles.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Groups/Circles-Prefix.pch";
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Groups/Circles-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soleilalpin.circles;
+				PRODUCT_NAME = Circles;
+				PROVISIONING_PROFILE = Automatic;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Groups/Circles-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6331A372175A707E00E02D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Groups/Circles-Prefix.pch";
+				INFOPLIST_FILE = "GroupsTests/CirclesTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidhas.circles;
+				PRODUCT_NAME = CirclesTests;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circles";
+			};
+			name = Debug;
+		};
+		6331A373175A707E00E02D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = M9AG4A3F6L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Groups/Circles-Prefix.pch";
+				INFOPLIST_FILE = "GroupsTests/CirclesTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidhas.circles;
+				PRODUCT_NAME = CirclesTests;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Circles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6331A310175A707D00E02D36 /* Build configuration list for PBXProject "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6331A369175A707E00E02D36 /* Debug */,
+				6331A36A175A707E00E02D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6331A36B175A707E00E02D36 /* Build configuration list for PBXNativeTarget "CirclesImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6331A36C175A707E00E02D36 /* Debug */,
+				6331A36D175A707E00E02D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6331A36E175A707E00E02D36 /* Build configuration list for PBXNativeTarget "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6331A36F175A707E00E02D36 /* Debug */,
+				6331A370175A707E00E02D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6331A371175A707E00E02D36 /* Build configuration list for PBXNativeTarget "CirclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6331A372175A707E00E02D36 /* Debug */,
+				6331A373175A707E00E02D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6331A333175A707D00E02D36 /* DHGRDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6331A334175A707D00E02D36 /* DHGRDocument.xcdatamodel */,
+			);
+			currentVersion = 6331A334175A707D00E02D36 /* DHGRDocument.xcdatamodel */;
+			path = DHGRDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6331A30D175A707D00E02D36 /* Project object */;
+}
