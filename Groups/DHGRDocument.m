@@ -635,7 +635,7 @@ NSString *DHGRReportsPBoardType = @"DHGRReportsPBoardType";
 
 - (void)getHelp:(id)sender {
 
-  NSString *supportString = @"https://soleil-alpin.com/Circles-Help.html";
+  NSString *supportString = @"https://soleil-alpin.com/Circles/Circles-Overview.pdf";
   NSURL *supportURL = [NSURL URLWithString:supportString];
   [[NSWorkspace sharedWorkspace] openURL:supportURL];
 }

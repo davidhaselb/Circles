@@ -118,7 +118,7 @@
                                         <menuItem title="As CSV" id="qJS-yj-BBi">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="exportCSV:" target="-1" id="UaN-PL-uNh"/>
+                                                <action selector="exportCSV:" target="-1" id="dhh-mj-hrA"/>
                                                 <binding destination="cIu-kz-6UI" name="enabled" keyPath="values.isStandard" id="CKp-nZ-d1v">
                                                     <dictionary key="options">
                                                         <integer key="NSMultipleValuesPlaceholder" value="1"/>
@@ -133,7 +133,7 @@
                                         <menuItem title="As PDF" id="usG-qy-6gi">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="exportPDF:" target="-1" id="yhs-Zg-ckO"/>
+                                                <action selector="exportPDF:" target="-1" id="9pI-i2-Ng1"/>
                                                 <binding destination="cIu-kz-6UI" name="enabled" keyPath="values.isStandard" id="SjI-9l-WlI">
                                                     <dictionary key="options">
                                                         <integer key="NSMultipleValuesPlaceholder" value="1"/>
