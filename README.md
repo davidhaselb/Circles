@@ -29,7 +29,7 @@ The source code of Circles is released under the [BSD License](https://en.wikipe
 
 `Enjoy using Circles!`
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01KGCU)
+
 
 ## Screenshot
 
