@@ -511,7 +511,6 @@ IA
                 <defaultToolbarItems>
                     <toolbarItem reference="ehR-cw-N53"/>
                     <toolbarItem reference="NMB-KF-wDP"/>
-                    <toolbarItem reference="Igy-2K-pqY"/>
                 </defaultToolbarItems>
             </toolbar>
             <contentBorderThickness minY="32"/>
